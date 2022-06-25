@@ -1,0 +1,40 @@
+
+body{
+    background-color: aqua;
+}
+.countbtn{
+    padding: 10px;
+    background-color: white;
+}
+.count1{
+    display: flex;
+    justify-content: center;
+}
+
+.app{display: flex;
+justify-content: center;
+align-items: center;
+
+margin-top: 10%;}
+.count{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 70px;
+}
+
+.app .buttons button {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: none;
+    margin: 0 2rem;
+    font-size: 5em;
+    box-shadow: 0 4px 32px 0 rgba(10,14,29,.02), 0 8px 64px 0 rgba(10,14,29,.08);
+    cursor: pointer;
+}
+.app .buttons button:hover{
+    font-size: 7em;
+}
+.app .buttons button:focus{
+    outline: 0;
+}
